@@ -1,0 +1,235 @@
+.fa-regular {
+    color:red;
+}
+
+body {
+    font-family: 'Founders Grotesk', sans-serif;
+}
+
+.page-entry {
+    font-size: 100px;
+}
+
+.container{
+    padding-top:100px;
+}
+
+.img-container{
+    margin-top:60px;
+}
+
+.img-container img{
+    width:100%;
+}
+
+.img-container .row .image-wrapper .yazi{
+    position: absolute;
+    margin-top: 27px;
+    transform: rotate(270deg);
+    transform-origin: top left;
+    font-size: 13px;
+}
+
+.category-container .date{
+    font-size: 8px;
+    top: 0;
+    right: 0;
+}
+
+.description-wrapper{
+    border-top: 1px solid #000;
+    margin-top: 10px;
+    padding-top:10px;
+}
+
+.img-container .inner-categories{
+    display: flex;
+    position: relative; /*date in mutlak pozisyonu inner categories içinde ayarlanıyor*/
+}
+
+.img-container .inner-categories .category{
+    font-size: 10px;
+}
+
+.img-container .inner-categories .date{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ 
+.page-information{
+    padding-top:70px;
+}
+
+.page-information .subtitle{
+    font-weight:400;
+}
+
+.page-information .about-information{
+    font-weight:200;
+    padding-bottom: 50px;
+}
+ 
+a {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+a:hover {
+    background-color: grey;
+}
+
+.about-part-image img{
+    padding-top:100px;
+    width:100%;
+    margin-bottom:100px;
+}
+
+.fc{
+    margin-bottom:50px;
+}
+
+.fc-image-wrapper{
+    margin-bottom:30px;
+    height:63px;
+}
+
+.fc-image{
+    height: 100%;
+}
+
+.card-wrapper{
+    position:relative;
+    min-height:399px !important;
+}
+
+.fc-button{
+    position:absolute;
+    bottom: 0px;
+}
+
+.brands-title {
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+.brand-row {
+    display: flex;
+    margin-bottom:30px;
+}
+
+.more {
+    text-align: right; 
+}
+
+.brand-row-wrapper{
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-img-wrapper {
+    margin-top:200px;
+    margin-bottom:200px;
+    display: flex;
+    align-items: center; 
+  }
+  
+.last-img {
+    width: 100%;
+  height: auto; /* Yüksekliği otomatik olarak ayarla */
+  margin-right: 10px; 
+}
+
+.new-page {
+    margin-right:30px;
+}
+  
+.next-title {
+    display:flex;
+    position:relative;
+    width:auto;
+    margin-bottom:200px;
+}
+.number{
+    font-size:15px;
+    margin-left: 10px;
+
+}
+
+.contact-wrapper {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.contact {
+    margin-bottom:50px;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-information-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contact-information-two {
+    display:flex;
+    justify-content: space-between;
+}
+
+.location-title {
+    padding-right: 80px;
+}
+
+.information-title {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.content-wrapper.row.brand-row-wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.designmind {
+    margin-right:10px;
+}
+
+.year {
+    font-size: 15px;
+}
+
+.right.col-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-inner-left {
+    display: flex;
+}
+
+
+.option {
+    margin-left: 80px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .last-img-wrapper {
+
+        flex-direction: column;
+    }
+  }
